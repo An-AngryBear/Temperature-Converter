@@ -26,7 +26,7 @@ function converter() {
 	}
 	colorSpan();
 }
-// Enter on Submit
+// Allows enter key to be used to submit
 function enterAsSubmit() {
 	if (event.keyCode == 13) {
 		submitButton.click();
