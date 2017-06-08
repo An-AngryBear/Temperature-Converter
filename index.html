@@ -9,7 +9,7 @@
 		<div id="wrapper">
 			<form>
 				<label id="entrytext" for="entryfield">Enter degree to be converted:</label><br>
-				<input id="entryfield" type="number" maxlength="11"><br><br>
+				<input id="entryfield" type="number" maxlength="11""><br><br>
 				<label for="radio-button-group">Convert to:</label>
 				<div id="radio-button-group">
 					<label for="cels">Celsius</label>
@@ -18,12 +18,11 @@
 					<input id="fahr" type="radio" name="temps">
 				</div>
 				<div id="submit-reset-group">
-					<button type="button" onclick="converter()">Submit</button>
-					<input type="reset" value="Reset">
+					<button id="submit-button" type="button">Submit</button>
+					<button id="reset-button" type="reset">Reset</button>
 				</div>
+				<h3 id="temp-display"></h3>
 			</form>
-			<h3 id="temp-display"></h3>
-		</div>
 		<script type="text/javascript" src="converter.js"></script>
 	</body>
 </html>

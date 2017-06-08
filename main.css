@@ -31,7 +31,7 @@ h1 {
 #radio-button-group label {
 	padding-left: 1em;
 }
-#submit-reset-group button, #submit-reset-group input {
+#submit-reset-group button {
 	margin-left: 1em;
 	padding: .5em;
 	border-radius: 8px;
@@ -48,4 +48,15 @@ h1 {
 }
 #entryfield {
 	box-shadow: 0 0 10px black;
+	border-radius: 8px;
+}
+.hot span {
+	color: red;
+}
+.cold span {
+	color: blue;
+}
+
+.warm-cool span {
+	color: green;
 }
